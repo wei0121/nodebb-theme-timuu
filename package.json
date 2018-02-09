@@ -6,4 +6,19 @@
   "keywords": [
   ],
   "license": "MIT"
+  
 }
+
+"author": {
+    "name": "Yasin Aribuga",
+    "email": "yasin.aribuga@gmail.com",
+    "url": "https://timuu.com/"
+},
+"repository": {
+    "type": "git",
+    "url": "https://github.com/timuu/nodebb-theme-timuu"
+},
+"bugs": {
+    "url": "https://github.com/timuu/nodebb-theme-timuu/issues"
+}
+
