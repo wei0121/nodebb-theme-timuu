@@ -1,24 +1,20 @@
-{
-  "name": "nodebb-theme-timuu",
-  "version": "0.1.0",
-  "description": "Timuu's NodeBB theme.'",
-  "main": "theme.less",
-  "keywords": [
-  ],
-  "license": "MIT"
-  
-}
 
-"author": {
-    "name": "Yasin Aribuga",
+  "name": "nodebb-theme-timuu",
+  "version": "0.0.0",
+  "description": "Timuu's NodeBB theme",
+  "main": "theme.less",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Yasin aribuga",
     "email": "yasin.aribuga@gmail.com",
-    "url": "https://timuu.com/"
-},
-"repository": {
+    "url": "https://timuu.com"
+  },
+  "repository": {
     "type": "git",
     "url": "https://github.com/timuu/nodebb-theme-timuu"
-},
-"bugs": {
+  },
+  "bugs": {
     "url": "https://github.com/timuu/nodebb-theme-timuu/issues"
+  }
 }
-
