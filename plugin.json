@@ -1,10 +1,11 @@
 {
 	"id": "nodebb-theme-timuu",
 	"library": "./lib/theme.js",
-	"hooks": 
+	"hooks": [
 		{
-			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
-		},
+			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" 
+		}
+	],
 	"scripts": [
 		"lib/client.js",
 		"../nodebb-theme-persona/lib/persona.js",
