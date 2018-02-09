@@ -1,10 +1,9 @@
 {
-  "name": "nodebb-theme-quickstart",
-  "version": "0.0.0",
-  "description": "Enter a description here",
+  "name": "nodebb-theme-timuu",
+  "version": "0.1.0",
+  "description": "Timuu's NodeBB theme.'",
   "main": "theme.less",
   "keywords": [
-
   ],
   "license": "MIT"
 }
