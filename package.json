@@ -1,6 +1,6 @@
 
   "name": "nodebb-theme-timuu",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Timuu's NodeBB theme",
   "main": "theme.less",
   "keywords": [],
