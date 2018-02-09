@@ -12,7 +12,6 @@
 		"../nodebb-theme-persona/lib/modules/nprogress.js",
 		"../nodebb-theme-persona/lib/modules/autohidingnavbar.min.js",
 		"../nodebb-theme-persona/lib/modules/quickreply.js",
-		"../nodebb-theme-persona/library.js"
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"
