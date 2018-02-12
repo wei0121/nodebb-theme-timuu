@@ -7,7 +7,7 @@
 		<h2 class="title">
 			<!-- IMPORT partials/categories/link.tpl --><br/>
 			<!-- IF ../descriptionParsed -->
-			<div class="description" style="color: #ccc;">
+			<div class="description" style="font-weight: 200; font-size: 13px; margin: 8px 0 0 0; color: #ddd;">
 			{../descriptionParsed}
 			</div>
 			<!-- ENDIF ../descriptionParsed -->
