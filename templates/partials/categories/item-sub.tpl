@@ -2,12 +2,12 @@
 <div component="categories/category" data-cid="{../cid}" data-numRecentReplies="1" class="col-md-6">
 	<meta itemprop="name" content="{../name}">
 	<div class="content" style="{function.generateCategoryBackground} background-size: cover; padding: 15px;
-    height: 250px; border-radius: 10px; margin-bottom: 30px; position: relative;">
+    height: 250px; border-radius: 10px; margin-bottom: 28px; position: relative;">
 		<a class="div-href" href="{config.relative_path}/category/{../slug}" itemprop="url">
 		<h2 class="title">
 			<!-- IMPORT partials/categories/link.tpl --><br/>
 			<!-- IF ../descriptionParsed -->
-			<div class="description" style="color: #fff;">
+			<div class="description" style="color: #ccc;">
 			{../descriptionParsed}
 			</div>
 			<!-- ENDIF ../descriptionParsed -->
