@@ -1,4 +1,4 @@
-<div component="categories/category" data-cid="{../cid}" data-numRecentReplies="1" class="col-md-3 kralahmet">
+<div component="categories/category" data-cid="{../cid}" data-numRecentReplies="{../numRecentReplies}" class="col-md-3 kralahmet">
 	<meta itemprop="name" content="{../name}">
 	<div class="content sicakhavalar" style="{function.generateCategoryBackground} background-size: cover; padding: 15px;
     height: 350px; border-radius: 10px; margin-bottom: 30px; position: relative;">
