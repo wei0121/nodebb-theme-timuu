@@ -8,19 +8,47 @@ bottom: 10px;}
 
 .subcategory .content a {position:absolute; width:100%; height:100%; color: #fff; text-decoration: none;}
 
-.kralahmet > .content a {position:absolute; width:100%; height:100%; color: #fff; text-decoration: none;}
+.kralahmet .content a {position:absolute; width:100%; height:100%; color: #fff; text-decoration: none;}
 
 .evetya.human-readable-number {font-size: 12px;}
 
-.sicakhavalar:hover {filter: brightness(1%);
-    -webkit-filter: brightness(120%);
-    filter: saturate(160%);
-    -webkit-filter: saturate(160%);
+.kralahmet-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 350px;
+
+    &:hover .kralahmet-bg {
+        transform: scale(1.05, 1.05);
+        filter: brightness(1%);
+        -webkit-filter: brightness(120%);
+        filter: saturate(160%);
+        -webkit-filter: saturate(160%);
+    }
 }
 
-.sicakhavalar {-webkit-transition: all .4s linear;
- filter: saturate(80%);
-    -webkit-filter: saturate(80%);}
+.kralahmet-bg {
+    background-color: #a3e2ff;
+    color: #fff;
+    background-size: cover;
+    padding: 15px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all .4s linear;
+    filter: saturate(80%);
+    -webkit-filter: saturate(80%);
+    transition: all .6s;
+}
+
+.sicakhavalar {
+    position: relative;
+    padding: 15px;
+    height: 350px;
+    margin-bottom: 30px;
+}
 
 .subcategory .hidden.xs {width:100%;}  
 
