@@ -1,4 +1,3 @@
-<div class="row">
 <div component="categories/category" data-cid="{../cid}" data-numRecentReplies="1" class="col-md-6">
 	<meta itemprop="name" content="{../name}">
 	<div class="content sicakhavalar" style="{function.generateCategoryBackground} background-size: cover; padding: 15px;
@@ -32,5 +31,4 @@
 	</div>
 	<!-- ENDIF !../link -->
 	
-</div>
 </div>
