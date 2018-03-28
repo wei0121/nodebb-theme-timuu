@@ -1,7 +1,7 @@
 <div component="categories/category" data-cid="{../cid}" data-numRecentReplies="1" class="col-md-3">
 	<meta itemprop="name" content="{../name}">
 	<div class="content sicakhavalar" style="{function.generateCategoryBackground} background-size: cover; padding: 15px;
-    height: 250px; border-radius: 10px; margin-bottom: 28px; position: relative;">
+    height: 120px; border-radius: 10px; margin-bottom: 28px; position: relative;">
 		<a class="div-href" href="{config.relative_path}/category/{../slug}" itemprop="url">
 		<h2 class="title">
 			<!-- IMPORT partials/categories/link.tpl --><br/>
