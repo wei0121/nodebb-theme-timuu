@@ -9,22 +9,21 @@
 		<!-- IMPORT partials/category/subcategory.tpl -->
 
 		<!-- IF children.length --><hr class="hidden-xs"/><!-- ENDIF children.length -->
-        <div class="row">
-			<div class="clearfix">
-				<!-- IF privileges.topics:create -->
-				<button component="category/post" id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
-				<!-- ELSE -->
-					<!-- IF !loggedIn -->
-					<a component="category/post/guest" href="{config.relative_path}/login" class="btn btn-primary">[[category:guest-login-post]]</a>
-					<!-- ENDIF !loggedIn -->
-				<!-- ENDIF privileges.topics:create -->
 
-				<span class="pull-right" component="category/controls">
-					<!-- IMPORT partials/category/watch.tpl -->
-					<!-- IMPORT partials/category/sort.tpl -->
-					<!-- IMPORT partials/category/tools.tpl -->
-				</span>
-			</div>
+		<div class="clearfix">
+			<!-- IF privileges.topics:create -->
+			<button component="category/post" id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
+			<!-- ELSE -->
+				<!-- IF !loggedIn -->
+				<a component="category/post/guest" href="{config.relative_path}/login" class="btn btn-primary">[[category:guest-login-post]]</a>
+				<!-- ENDIF !loggedIn -->
+			<!-- ENDIF privileges.topics:create -->
+
+			<span class="pull-right" component="category/controls">
+				<!-- IMPORT partials/category/watch.tpl -->
+				<!-- IMPORT partials/category/sort.tpl -->
+				<!-- IMPORT partials/category/tools.tpl -->
+			</span>
 		</div>
 
 		<hr class="hidden-xs" />
